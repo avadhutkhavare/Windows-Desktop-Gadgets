@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<gadget>
+  <name>SoftLayer Ticket Gadget</name>
+  <namespace>microsoft.windows</namespace>
+  <version>1.0</version>
+  <author name="William J Francis">
+	<info text="wfrancis@softlayer.com"/>
+  </author>
+  <copyright>© 2010</copyright>
+  <description>Monitor tickets from the convience of your Sidebar.</description>
+  <icons>
+    <icon height="48" width="48" src="icon.png"/>
+  </icons>
+  <hosts>
+    <host name="sidebar">
+      <base type="HTML" apiVersion="1.0.0" src="softlayer_ticket_gadget.html"/>
+      <permissions>Full</permissions>
+      <platform minPlatformVersion="0.3"/>
+    </host>
+  </hosts>
+</gadget>
